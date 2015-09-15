@@ -1,12 +1,11 @@
 class UsersController < ApplicationController
 
   # def index
-  #   user = User.all
-  #   user_array = user.all.map { |record| "#{record.first_name} #{record.last_name}, #{record.age}" }
-  #   render text: user_array
-  # end
-
-  def index
+  if @params[:id] == nil
+    user = User.all
+    user_array = user.all.map { |record| "#{record.first_name} #{record.last_name}, #{record.age}" }
+    render text: user_array
+  elsif @params[]
     # render text: "params: #{params.inspect}""
     user = User.where("first_name LIKE ?", "s%")
     user_array_with_s = user.map { |user| "#{user.first_name} #{user.last_name}, #{user.age}" }
