@@ -13,7 +13,7 @@ THe database was created using a seeds.rb file populated with names and ages.
 
 
 
-.
+`.
 ├── Gemfile             # Details which gems are required by the project
 ├── README.md           # This file
 ├── Rakefile            # Defines `rake generate:migration` and `db:migrate`
@@ -26,6 +26,7 @@ THe database was created using a seeds.rb file populated with names and ages.
 │   └── setup.rb        # `require`ing this file sets up the db connection
 └── lib                 # Your ruby code (models, etc.) should go here
     └── all.rb          # Require this file to auto-require _all_ `.rb` files in `lib`
-pareser app that shows the results from a table depending on the url passed to the browser.
+`
+parser app that shows the results from a table depending on the url passed to the browser.
 
 * It was written in Ruby 2.2.3
