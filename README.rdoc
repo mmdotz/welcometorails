@@ -24,7 +24,7 @@ THe database was created using a seeds.rb file populated with names and ages.
 │   ├── dev.sqlite3     # Default location of the database file
 │   ├── migrate         # Folder containing generated migrations
 │   └── setup.rb        # `require`ing this file sets up the db connection
-└── lib                 # Your ruby code (models, etc.) should go here
+└── lib                 # app/models/user.rb
     └── all.rb          # Require this file to auto-require _all_ `.rb` files in `lib`
 `
 parser app that shows the results from a table depending on the url passed to the browser.
